@@ -20,6 +20,33 @@ then select github from the options.
 
 Then enter your user id , password and [the repository url](https://github.com/open-learning-exchange/Android-PBeLL) to import the project in Android Studio. You can also import the project by cloning the repository at first from github. Then you can Select new from the file menu of Android Studio and select import project.
 
+#### Running the Bell App in Android Emulator
+
+The Android Emulator has the follwing requirements:
+* Android Studio 2.0 or higher 
+* SDK Tools 25.0.10 or higher
+* [System requirements](https://developer.android.com/studio/index.html#Requirements)
+* Newly created AVDs to replace any AVDs for emulator 24.0.x or lower
+* Active network connection for certain operations, such as testing app features that require it.
+* adb integration enabled through Tools > Android > Enable ADB Integration.
+
+Creating a new Android Emulator
+
+
+To start the emulator and run an app in your project:
+1.Open an Android Studio project and select Run Run icon.
+The Select Deployment Target dialog appears.
+![selectdeploymenttarget](uploads/images/e-selectdeploymenttarget.png)
+
+2.The No USB devices or running emulators detected warning means that you don’t currently have any emulators running, or any detected hardware devices connected to your computer.  If you don't have any hardware devices connected or any emulators running then you can ignore the warning.
+
+3. In the Select Deployment Target dialog, select an existing emulator definition, and then click OK. If you don’t see a definition you want to use, click Create New Emulator to launch the AVD Manager. After you define a new AVD, in the Select Deployment Target dialog, click OK.
+If you want to use this emulator definition as the default for your project, select Use same selection for future launches.
+The emulator launches and displays your app.
+
+
+
+
 
 
 
