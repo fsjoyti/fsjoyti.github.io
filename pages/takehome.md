@@ -32,6 +32,23 @@ The Android Emulator has the follwing requirements:
 
 Creating a new Android Emulator
 
+1. Open an Android Studio Project and select AVD manager
+![AndroidVirtualDevice](uploads/images/AndroidVirtualDevice.PNG)
+
+2.From the Your Virtual Devices page of the AVD Manager, click Create Virtual Device.
+![AndroidVirtualDeviceManager](uploads/images/AndroidVirtualDeviceManager.PNG)
+
+The Select Hardware page appears.
+![AVDHardwareProfile](uploads/images/avd-hardwareprofile.png)
+
+3.Select a hardware profile, and then click Next.
+If you don't see the hardware profile you want, you can create or import a hardware profile.
+The System Image page appears.
+![AVDSystemImage](uploads/images/avd-systemimage.png)
+If you see Download next to the system image, you need to click it to download the system image. You must be connected to the internet to download it.
+
+
+
 
 To start the emulator and run an app in your project:
 1.Open an Android Studio project and select Run Run icon.
